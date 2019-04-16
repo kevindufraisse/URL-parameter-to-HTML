@@ -3,8 +3,8 @@
     <title>Coucou</title>
 	<script type="text/javascript">
 	function myFunction() {
-		document.getElementById("test1").src = "http://logo.clearbit.com/"+tech;
-		document.getElementById("id").innerHTML = tech;}
+		document.getElementById("test1").src = "http://logo.clearbit.com/"+site;
+		document.getElementById("id").innerHTML = site;}
 		function GetURLParameter(sParam)
 		{
 			var sPageURL = window.location.search.substring(1);
@@ -18,13 +18,12 @@
 				}
 			}
 		}
-		var tech = GetURLParameter('site');
+		var site = GetURLParameter('site');
 		var blog = GetURLParameter('blog');
 
 </script>
  </head>
   <body onload="myFunction()">
-	<h1>that's your ID > <span id="id"></span></h1>
-	<img id="test1" src="http://logo.clearbit.com/"+tech>
+	<img id="test1" src="http://logo.clearbit.com/"+site>
 </body>
 </html>
