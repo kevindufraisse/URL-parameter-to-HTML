@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Coucou</title>
+	<script type="text/javascript">
+	function myFunction() {document.getElementById("id").innerHTML = tech;}
+		function GetURLParameter(sParam)
+		{
+			var sPageURL = window.location.search.substring(1);
+			var sURLVariables = sPageURL.split('&');
+			for (var i = 0; i < sURLVariables.length; i++) 
+			{
+				var sParameterName = sURLVariables[i].split('=');
+				if (sParameterName[0] == sParam) 
+				{
+					return sParameterName[1];
+				}
+			}
+		}
+		var tech = GetURLParameter('param');
+		var blog = GetURLParameter('blog');
+</script>
+ </head>
+  <body onload="myFunction()">
+	<h1>Your parameter <span id="id"></span></h1>
+</body>
+</html>
