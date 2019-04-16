@@ -2,7 +2,7 @@
 
 Add variable thought URL parameter
 
-Fort the onlytext.html
+For the onlytext.html
 
 >Just Add ?id=YOURPARAMETER
 
