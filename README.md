@@ -8,4 +8,4 @@ For the onlytext.html
 
 
 For the onlyimg.html
->Just Add ?id=domain.com
+>Just Add ?site=domain.com
