@@ -4,7 +4,7 @@ Add variable thought URL parameter
 
 For the onlytext.html
 
->Just Add ?id=YOURPARAMETER
+>Just Add ?fn=YOURPARAMETER 
 
 
 For the onlyimg.html
