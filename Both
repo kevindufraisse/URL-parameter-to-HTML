@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Coucou</title>
+	<script type="text/javascript">
+	function myFunction() {
+		document.getElementById("test1").src = "http://logo.clearbit.com/"+site;
+		document.getElementById("id").innerHTML = fn;}
+		function GetURLParameter(sParam)
+		{
+			var sPageURL = window.location.search.substring(1);
+			var sURLVariables = sPageURL.split('&');
+			for (var i = 0; i < sURLVariables.length; i++) 
+			{
+				var sParameterName = sURLVariables[i].split('=');
+				if (sParameterName[0] == sParam) 
+				{
+					return sParameterName[1];
+				}
+			}
+		}
+		var site = GetURLParameter('site');
+		var fn = GetURLParameter('fn');
+
+</script>
+ </head>
+  <body onload="myFunction()">
+	<img id="test1" src="http://logo.clearbit.com/"+site>
+		<h1>Your parameter <span id="id"></span></h1>
+
+</body>
+</html>
